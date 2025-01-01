@@ -1,0 +1,21 @@
+{
+  "name": "service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeveloperKeshavKumar/passlet.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DeveloperKeshavKumar/passlet/issues"
+  },
+  "homepage": "https://github.com/DeveloperKeshavKumar/passlet#readme",
+  "description": ""
+}
