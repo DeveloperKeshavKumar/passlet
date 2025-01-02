@@ -1,21 +1,14 @@
 {
   "name": "service",
-  "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy --minify"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "module",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DeveloperKeshavKumar/passlet.git"
+  "dependencies": {
+    "hono": "^4.6.15"
   },
-  "bugs": {
-    "url": "https://github.com/DeveloperKeshavKumar/passlet/issues"
-  },
-  "homepage": "https://github.com/DeveloperKeshavKumar/passlet#readme",
-  "description": ""
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241218.0",
+    "wrangler": "^3.96.0"
+  }
 }

@@ -1,1 +1,9 @@
-console.log("Hello"+2*2);
+import { Hono } from 'hono'
+
+const app = new Hono()
+
+app.get('/', (c) => {
+  return c.text('Hello Hono!')
+})
+
+export default app
