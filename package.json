@@ -1,17 +1,18 @@
 {
-  "name": "service",
+  "name": "passlet",
+  "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
-    "dev": "wrangler dev",
-    "deploy": "wrangler deploy --minify"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "hono": "^4.6.15"
-  },
-  "devDependencies": {
-    "@cloudflare/workers-types": "^4.20241218.0",
-    "@types/node": "^22.10.3",
-    "prisma": "^6.1.0",
-    "ts-node": "^10.9.2",
-    "wrangler": "^3.96.0"
-  }
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
 }
