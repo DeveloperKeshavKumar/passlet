@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "declarationDir": "./dist/types",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "strict": true,
+    "module": "ESNext",
+    "target": "ESNext"
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
