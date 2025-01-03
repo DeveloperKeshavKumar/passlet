@@ -32,3 +32,5 @@ tsconfig.tsbuildinfo
 
 # misc
 .DS_Store
+
+passlet.png
