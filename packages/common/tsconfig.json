@@ -7,8 +7,11 @@
     "rootDir": "./src",
     "outDir": "./dist",
     "strict": true,
-    "module": "ESNext",
-    "target": "ESNext"
+    "module": "NodeNext",
+    "target": "ESNext",
+    "moduleResolution": "nodenext",
+    "esModuleInterop": true,
+    "resolveJsonModule": true
   },
   "include": [
     "src/**/*"
